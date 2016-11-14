@@ -75,9 +75,9 @@ body{
     display: none;
     position: absolute;
     background-color: #f6f6f7;
-    width: 100%;
+    width: calc(100% + 2px);
     z-index: 5;
-    margin-left: -18px;
+    left: -1px;
     margin-top: 10px;
     border-width: 0 1px 1px 1px;
     border-color: #ebebeb;
@@ -226,6 +226,7 @@ body{
 /**** CSS for #footer ****/
 #footer{
 	background-color: #32B2B8;
+	overflow-x: hidden;
 }
 #footer::before {
     content: "";
